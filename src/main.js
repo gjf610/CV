@@ -7,11 +7,11 @@ var option = {
     source: [
       ['score', 'amount', 'product'],
       [15, 70, '编程基础'],
-      [30, 75, '沟通能力'],
-      [45, 80, 'React'],
-      [60, 85, '项目开发'],
-      [75, 90, 'Vue'],
-      [90, 95, '静态页面'],
+      [35, 75, '沟通能力'],
+      [55, 75, 'React'],
+      [75, 80, 'Vue'],
+      [80, 80, 'javascript'],
+      [90, 85, '项目开发'],
     ]
   },
   grid: { containLabel: true },
@@ -20,7 +20,7 @@ var option = {
   visualMap: {
     orient: 'horizontal',
     left: 'center',
-    min: 10,
+    min: 40,
     max: 100,
     text: ['High Score', 'Low Score'],
     // Map the score column to color
